@@ -1,11 +1,11 @@
 package Car;
 
-abstract class Car {
-    public Engine engine;
+public abstract class Car {
+    private Engine engine;
     private String color;
     private String name;
 
-    protected void start() {
+    public void start() {
         System.out.println("Car starting");
     }
 
@@ -34,5 +34,5 @@ abstract class Car {
     public void setName(String name) {
         this.name = name;
     }
-}
 
+}
