@@ -1,5 +1,5 @@
 package Car;
 
-interface Moveable {
+public interface Moveable {
     void move();
 }

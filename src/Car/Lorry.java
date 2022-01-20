@@ -1,6 +1,6 @@
 package Car;
 
-class Lorry extends Car, Moveable, Stopable {
+public class Lorry implements Moveable, Stopable {
     public void move(){
         System.out.println("Car is moving");
     }
@@ -9,4 +9,3 @@ class Lorry extends Car, Moveable, Stopable {
         System.out.println("Car is stop");
     }
 }
-

@@ -1,5 +1,5 @@
 package Car;
 
-interface Stopable {
+public interface Stopable {
     void stop();
 }
